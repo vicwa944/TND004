@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1464329928 source:h:\tnd004\lab4\list.cpp
+	<iostream>
+	<iomanip>
+	"list.h"
+
+1464329928 h:\tnd004\lab4\list.h
+
+1464329928 source:h:\tnd004\lab4\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	"digraph.h"
+
+1464339888 h:\tnd004\lab4\digraph.h
+	"list.h"
+
+1464342240 source:h:\tnd004\lab4\digraph.cpp
+	<iostream>
+	<iomanip>
+	<cassert>
+	"digraph.h"
+	"queue.h"
+
+1464329928 h:\tnd004\lab4\queue.h
+	<cassert>
+
