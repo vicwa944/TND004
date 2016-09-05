@@ -68,7 +68,7 @@ int main()
                 G->printPath(t);
                 break;
             case 9:
-                cout << "Bye bye ..." << endl;
+                cout << "Exit program .." << endl;
                 break;
             default:
                 cout << "Bad choice!" << endl;
@@ -96,13 +96,13 @@ int menu()
 
     cout << endl;
     cout << "== Menu =======\n";
-    cout << "1. readGraph   \n";
-    cout << "2. uwsssp      \n";
-    cout << "3. pwsssp      \n";
-    cout << "4. printGraph  \n";
-    cout << "5. printTree   \n";
-    cout << "6. printPath   \n";
-    cout << "9. quit        \n";
+    cout << "1. ReadGraph   \n";
+    cout << "2. Uwsssp      \n";
+    cout << "3. Pwsssp      \n";
+    cout << "4. PrintGraph  \n";
+    cout << "5. PrintTree   \n";
+    cout << "6. PrintPath   \n";
+    cout << "9. Quit        \n";
     cout << "===============\n";
 
     return readInt("Your choice ? ");
@@ -130,7 +130,7 @@ Digraph * readGraph(string fileName)
     }
     else
     {
-         cout << "File not found!" << endl;
+         cout << "File could not be found!" << endl;
     }
 
     return temp;
