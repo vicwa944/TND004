@@ -68,7 +68,7 @@ int main()
                 G->printPath(t);
                 break;
             case 9:
-                cout << "Bye bye ..." << endl;
+                cout << "Exit program .." << endl;
                 break;
             default:
                 cout << "Bad choice!" << endl;

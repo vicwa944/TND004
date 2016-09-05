@@ -58,10 +58,10 @@ int main()
                 G->printGraph();
                 break;
             case 9:
-                cout << "Bye bye ..." << endl;
+                cout << "Exiting program ..." << endl;
                 break;
             default:
-                cout << "Bad choice!" << endl;
+                cout << "This was a bad choice!" << endl;
         }
     }
 
