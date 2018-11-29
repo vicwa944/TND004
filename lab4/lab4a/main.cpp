@@ -134,4 +134,5 @@ Digraph * readGraph(string fileName)
     }
 
     return temp;
+	cout << "THIS IS A TEST" << endl;
 }
