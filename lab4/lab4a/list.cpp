@@ -26,6 +26,7 @@ List::~List()
         Node *temp = header;
         header = temp->next;
         delete temp;
+// --- CHANGING SOME STUFF
     }
 }
 
@@ -91,7 +92,7 @@ void List::remove(int v)
     current = header->next;
 }
 
-// print list
+// print list .... JA JA JA !
 void List::print() const
 {
     Node *p = header->next;
@@ -100,7 +101,10 @@ void List::print() const
     {
         cout << " (" << setw(2) << p->vertex
              << ", " << setw(2) << p->weight << ") ";
+		
+	
         p = p->next;
+cout << " HELLO " << endl;
     }
     cout << endl;
 }
